@@ -45,7 +45,7 @@ const Header = () => {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: "white",
+        backgroundColor: "black",
         boxShadow: "none",
         borderBottom: "1px solid #e0e0e0",
       }}
@@ -78,7 +78,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         {!isMobile && (
           <List
-            sx={{ display: "flex", gap: 4, color: "text.secondary", margin: 0 }}
+            sx={{ display: "flex", gap: 4, color: "text.secondary", margin: 0, color: 'white'}}
           >
             {menuItems.map((item) => (
               <ListItem key={item} disablePadding>

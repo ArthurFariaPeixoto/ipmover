@@ -62,7 +62,7 @@ const Contact = () => {
                   <Typography
                     variant="h6"
                     sx={{ mt: 3, fontWeight: "medium" }}
-                    color="text.primary"
+                    color="#008080"
                   >
                     E-mail
                   </Typography>
@@ -105,7 +105,7 @@ const Contact = () => {
                   <Typography
                     variant="h6"
                     sx={{ mt: 3, fontWeight: "medium" }}
-                    color="text.primary"
+                    color="#008080"
                   >
                     Instituto
                   </Typography>
@@ -148,7 +148,7 @@ const Contact = () => {
                   <Typography
                     variant="h6"
                     sx={{ mt: 3, fontWeight: "medium" }}
-                    color="text.primary"
+                    color="#008080"
                   >
                     Telefone
                   </Typography>
