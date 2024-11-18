@@ -50,13 +50,13 @@ function Footer() {
           </Grid2>
         </Grid2>
         <Box sx={{ mt: 4, textAlign: "center" }}>
-          <IconButton href="#" color="inherit">
+          <IconButton href="#">
             <Icon name="facebook" />
           </IconButton>
-          <IconButton href="#" color="inherit">
+          <IconButton href="#">
             <Icon name="instagram" />
           </IconButton>
-          <IconButton href="#" color="inherit">
+          <IconButton href="#">
             <Icon name="twitter" />
           </IconButton>
         </Box>
