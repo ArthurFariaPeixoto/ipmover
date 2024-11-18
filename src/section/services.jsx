@@ -71,6 +71,7 @@ const Services = () => {
                   backgroundColor: "#f9f9f9",
                   textAlign: "center",
                 }}
+                className={" box-neon "}
               >
                 <CardContent>
                   <Box mb={2}>{service.icon}</Box>

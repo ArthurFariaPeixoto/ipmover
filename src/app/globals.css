@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --clr-one: #00ffe0;
+  --clr-two: rgb(127, 255, 0);
+  --clr-three: rgb(138, 43, 226);
+  --clr-bg: #1d1e22;
+
+  --c1: #04ebd2;
+  --c2: #f2f2f2;
+
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: "<percentage>";
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: "<percentage>";
+  initial-value: 0%;
+  inherits: true;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,4 +54,90 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(80, 80, 80, var(--tw-bg-opacity));
+}
+
+/* NEON EFFECT */
+.box-neon {
+  border: 0.1rem solid;
+
+  border-image: conic-gradient(
+      from var(--angle),
+      var(--c2),
+      var(--c1) 0.1turn,
+      var(--c1) 0.15turn,
+      var(--c2) 0.25turn
+    )
+    30;
+  animation: borderRotate var(--d) linear infinite forwards;
+  animation-duration: 3s;
+}
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
+  }
+}
+
+.neon-button.active::before {
+  animation: scalingShadow 0.5s ease-in-out;
+}
+
+@keyframes scalingShadow {
+  0% {
+    top: 120%;
+    transform: perspective(1.5em) rotateX(45deg) scale(0.8, 0.3);
+  }
+  50% {
+    top: 165%;
+    transform: perspective(1.5em) rotateX(45deg) scale(0.75, 0.3);
+  }
+  100% {
+    top: 120%;
+    transform: perspective(1.5em) rotateX(45deg) scale(0.8, 0.3);
+  }
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  outline: none;
+  /* color: var(--clr-bg); */
+  /* text-shadow: none; */
+  text-shadow: 0 0 10px var(--clr-one), 0 0 100px var(--clr-one);
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+
+.active {
+  animation: animate 0.5s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-40%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
