@@ -24,32 +24,28 @@ function Footer() {
         <Grid2 container spacing={4} justifyContent="center">
           <Grid2 item>
             <Link href="#" color="text.secondary" underline="hover">
-              About
+              Sobre nós
+            </Link>
+          </Grid2>
+
+          <Grid2 item>
+            <Link href="#" color="text.secondary" underline="hover">
+              Serviços
             </Link>
           </Grid2>
           <Grid2 item>
             <Link href="#" color="text.secondary" underline="hover">
-              Blog
+              Projetos
             </Link>
           </Grid2>
           <Grid2 item>
             <Link href="#" color="text.secondary" underline="hover">
-              Team
+              Instituições apoiadas
             </Link>
           </Grid2>
           <Grid2 item>
             <Link href="#" color="text.secondary" underline="hover">
-              Pricing
-            </Link>
-          </Grid2>
-          <Grid2 item>
-            <Link href="#" color="text.secondary" underline="hover">
-              Contact
-            </Link>
-          </Grid2>
-          <Grid2 item>
-            <Link href="#" color="text.secondary" underline="hover">
-              Terms
+              Contato
             </Link>
           </Grid2>
         </Grid2>
@@ -71,7 +67,7 @@ function Footer() {
           sx={{ mt: 4 }}
           suppressHydrationWarning
         >
-          © {currentYear} SomeCompany, Inc. All rights reserved.
+          © {currentYear} Time ABC, Inc. All rights reserved.
         </Typography>
       </Container>
     </Box>
