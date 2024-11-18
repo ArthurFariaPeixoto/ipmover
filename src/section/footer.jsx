@@ -19,7 +19,7 @@ function Footer() {
   }, []);
 
   return (
-    <Box sx={{ bgcolor: "background.paper", py: 6 }}>
+    <Box sx={{ bgcolor: "background.paper", py: 6, backgroundColor: '#dfdcdc' }}>
       <Container maxWidth="lg">
         <Grid2 container spacing={4} justifyContent="center">
           <Grid2 item>
