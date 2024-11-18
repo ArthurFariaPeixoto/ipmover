@@ -26,7 +26,7 @@ const StatsSection = () => {
       sx={{
         py: 5,
         px: 3,
-        backgroundColor: isDarkMode ? "#4B5563" : "#32cd32",
+        backgroundColor: isDarkMode ? "#4B5563" : "#008080",
         borderRadius: 2,
         maxWidth: "1280px",
         mx: "auto",

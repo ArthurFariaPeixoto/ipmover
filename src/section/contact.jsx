@@ -41,7 +41,7 @@ const Contact = () => {
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "primary.light",
+                      bgcolor: "#9ccdf4",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
@@ -80,7 +80,7 @@ const Contact = () => {
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "primary.light",
+                      bgcolor: "#9ccdf4",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
@@ -119,7 +119,7 @@ const Contact = () => {
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "primary.light",
+                      bgcolor: "#9ccdf4",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
