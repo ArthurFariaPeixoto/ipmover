@@ -5,8 +5,6 @@ import {
   AppBar,
   Box,
   Toolbar,
-  Typography,
-  IconButton,
   Button,
   Menu,
   MenuItem,
@@ -17,7 +15,6 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
