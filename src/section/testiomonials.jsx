@@ -3,14 +3,11 @@ import {
   Box,
   Grid,
   Typography,
-  Button,
   Card,
   CardContent,
   CardActions,
   Rating,
-  Grid2,
 } from "@mui/material";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Testimonials = () => {
   const reviews = [
@@ -61,18 +58,6 @@ const Testimonials = () => {
               esperança e oportunidades para aqueles que mais precisam.
             </Typography>
           </Box>
-          {/*  <Button
-            variant="outlined"
-            sx={{
-              mt: { xs: 3, md: 0 },
-              borderColor: "info.main",
-              color: "info.main",
-              "&:hover": { backgroundColor: "info.main", color: "#fff" },
-            }}
-            endIcon={<ArrowForwardIcon />}
-          >
-            Leia todas as histórias
-          </Button> */}
         </Box>
 
         <Grid container spacing={4}>
