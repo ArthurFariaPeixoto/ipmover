@@ -1,9 +1,14 @@
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaPhoneAlt } from "react-icons/fa";
+
+import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const iconMap = {
   facebook: FaFacebook,
   instagram: FaInstagram,
   twitter: FaTwitter,
+  email: MdEmail,
+  location: MdLocationOn,
+  phone: FaPhoneAlt,
 };
 
 const Icon = ({ name, ...props }) => {
