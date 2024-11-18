@@ -4,13 +4,14 @@ import Icon from "@/utils/iconsHelper";
 
 const Contact = () => {
   return (
-    <Box component="section" sx={{ bgcolor: "background.default", py: 6 }}>
+    <Box component="section" sx={{ bgcolor: "background.default", py: 8 }}>
       <Container>
-        <Box>
+        {/* Header */}
+        <Box textAlign="center" mb={6}>
           <Typography
             variant="body1"
             color="primary"
-            sx={{ fontWeight: "medium" }}
+            sx={{ fontWeight: "medium", textTransform: "uppercase", letterSpacing: 2 }}
           >
             Contate-nos
           </Typography>
@@ -19,38 +20,48 @@ const Contact = () => {
             sx={{ mt: 1, fontWeight: "bold" }}
             color="text.primary"
           >
-            Entre em contato
+            Fale com nossa equipe
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-            Nossa equipe pode lhe auxiliar.
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ mt: 2, maxWidth: 600, mx: "auto" }}
+          >
+            Estamos aqui para ajudá-lo. Escolha uma das formas de contato abaixo ou
+            venha nos visitar.
           </Typography>
         </Box>
 
-        <Grid container spacing={4} sx={{ mt: 4 }}>
+        <Grid container spacing={6}>
+          {/* Contact Info */}
           <Grid item xs={12} lg={4}>
-            <Grid container spacing={4}>
-              {/* Email Section */}
+            <Grid container spacing={5}>
+              {/* Email */}
               <Grid item xs={12}>
                 <Box
                   sx={{
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
+                    borderRadius: 2,
+                    p: 3,
+                    bgcolor: "background.paper",
+                    boxShadow: 2,
                   }}
                 >
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "#9ccdf4",
+                      bgcolor: "primary.light",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
                   >
-                    <Icon name="email" size={25} />
+                    <Icon name="email" size={30} />
                   </Box>
                   <Typography
                     variant="h6"
-                    sx={{ mt: 2, fontWeight: "medium" }}
+                    sx={{ mt: 3, fontWeight: "medium" }}
                     color="text.primary"
                   >
                     E-mail
@@ -68,28 +79,32 @@ const Contact = () => {
                 </Box>
               </Grid>
 
-              {/* Office Section */}
+              {/* Office */}
               <Grid item xs={12}>
                 <Box
                   sx={{
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
+                    borderRadius: 2,
+                    p: 3,
+                    bgcolor: "background.paper",
+                    boxShadow: 2,
                   }}
                 >
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "#9ccdf4",
+                      bgcolor: "primary.light",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
                   >
-                    <Icon name="location" size={25} />
+                    <Icon name="location" size={30} />
                   </Box>
                   <Typography
                     variant="h6"
-                    sx={{ mt: 2, fontWeight: "medium" }}
+                    sx={{ mt: 3, fontWeight: "medium" }}
                     color="text.primary"
                   >
                     Instituto
@@ -107,28 +122,32 @@ const Contact = () => {
                 </Box>
               </Grid>
 
-              {/* Phone Section */}
+              {/* Phone */}
               <Grid item xs={12}>
                 <Box
                   sx={{
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
+                    borderRadius: 2,
+                    p: 3,
+                    bgcolor: "background.paper",
+                    boxShadow: 2,
                   }}
                 >
                   <Box
                     sx={{
                       p: 2,
-                      bgcolor: "#9ccdf4",
+                      bgcolor: "primary.light",
                       borderRadius: "50%",
                       color: "primary.main",
                     }}
                   >
-                    <Icon name="phone" size={25} />
+                    <Icon name="phone" size={30} />
                   </Box>
                   <Typography
                     variant="h6"
-                    sx={{ mt: 2, fontWeight: "medium" }}
+                    sx={{ mt: 3, fontWeight: "medium" }}
                     color="text.primary"
                   >
                     Telefone
@@ -148,12 +167,13 @@ const Contact = () => {
             </Grid>
           </Grid>
 
-          {/* Map Section */}
+          {/* Map */}
           <Grid item xs={12} lg={8}>
             <Paper
+              elevation={3}
               sx={{
                 overflow: "hidden",
-                borderRadius: 2,
+                borderRadius: 3,
                 height: "100%",
                 minHeight: 400,
               }}

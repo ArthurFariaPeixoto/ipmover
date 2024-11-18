@@ -50,7 +50,7 @@ const Services = () => {
       <Container maxWidth="lg">
         {/* Heading */}
         <Box textAlign="center" mb={4}>
-          <Typography variant="h4" fontWeight="bold" gutterBottom>
+          <Typography variant="h4" fontWeight="bold" color="#008080"gutterBottom>
             O que fazemos
           </Typography>
 
@@ -75,7 +75,7 @@ const Services = () => {
               >
                 <CardContent>
                   <Box mb={2}>{service.icon}</Box>
-                  <Typography variant="h6" fontWeight="bold" gutterBottom>
+                  <Typography variant="h7" fontWeight="bold" gutterBottom>
                     {service.title}
                   </Typography>
                   <Typography variant="body2" color="textSecondary">
