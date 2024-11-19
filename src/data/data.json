@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Nós Somos IPMover",
+    "paragraph": "A IPMover é uma organização dedicada a promover impacto positivo na sociedade por meio do desenvolvimento e gestão de projetos que atendem demandas sociais, educacionais e ambientais. Atuando com ética, inovação e compromisso, o instituto oferece suporte técnico, planejamento estratégico e execução de iniciativas que transformam comunidades, sempre com foco na sustentabilidade e inclusão social."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "A IPMover é uma organização focada em transformar ideias em soluções concretas para desafios sociais. Com uma abordagem colaborativa e estratégica, o instituto promove o desenvolvimento de projetos sustentáveis, capacita agentes de mudança e constrói pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Experiência e Expertise",
+      "Inovação e Sustentabilidade",
+      "Parcerias Estratégicas",
+      "Compromisso com Resultados"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Capacitação Profissional",
+      "Gestão Personalizada",
+      "Transparência",
+      "Foco Comunitário"
     ]
   },
   "Gallery": [
@@ -100,32 +100,32 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"O Instituto transformou completamente a gestão do nosso projeto social. Eles organizaram cada etapa com clareza, trouxeram soluções inovadoras e nos ajudaram a alcançar mais pessoas do que imaginávamos.\"",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"Graças ao apoio do Instituto, conseguimos estruturar nosso programa de impacto social de forma sustentável e com métricas claras. Eles nos ajudaram a ampliar nosso alcance e melhorar a qualidade do atendimento.\"",
       "name": "Johnathan Doe"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"Os treinamentos oferecidos pelo Instituto foram incríveis! Nossa equipe ganhou novas habilidades em gestão de projetos, e agora estamos muito mais preparados para enfrentar desafios.\"",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"Com o suporte técnico e estratégico do Instituto, conseguimos tirar do papel um projeto que parecia impossível. A dedicação da equipe foi fundamental para transformar essa ideia em uma realidade de impacto.\"",
       "name": "Johnathan Doe"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"A transparência e o profissionalismo do Instituto nos deram total confiança em investir. Eles apresentaram resultados concretos e nos ajudaram a entender o verdadeiro impacto do nosso apoio.\"",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"Nosso projeto nunca havia saído de uma escala local. Com a ajuda do Instituto, não apenas ampliamos nosso alcance, mas também conseguimos melhorar significativamente a vida de centenas de pessoas.\"",
       "name": "Johnathan Doe"
     }
   ],
@@ -162,23 +162,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Gestão Estratégica de Projetos",
+      "text": "Planejamento, execução e monitoramento de projetos sociais com metodologias modernas, garantindo eficiência e impacto mensurável."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Parcerias e Colaborações",
+      "text": "Conexão entre empresas, ONGs e órgãos públicos para fortalecer redes de apoio e alavancar projetos de maior alcance e relevância."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Capacitação e Treinamento",
+      "text": "Programas de formação para profissionais e organizações, com foco em gestão de projetos, captação de recursos e inovação social."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Monitoramento e Avaliação de Impacto",
+      "text": "Ferramentas para análise contínua dos resultados dos projetos, permitindo ajustes e garantindo que os objetivos sejam alcançados de forma eficaz."
     }
   ]
 }
