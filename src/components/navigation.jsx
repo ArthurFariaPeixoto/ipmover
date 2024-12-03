@@ -18,8 +18,17 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            IPMover
-          </a>{" "}
+            <img
+              alt="Logo Institucional"
+              src="img/logo3.png"
+              style={{
+                mixBlendMode: "darken",
+                display: "inline",
+                width: "40px",
+              }}
+            />{" "}
+            Instituto Pró-Mover
+          </a>
         </div>
 
         <div
