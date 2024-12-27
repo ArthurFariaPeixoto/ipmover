@@ -1,11 +1,16 @@
 {
   "Header": {
-    "title": "Somos o Instituto Pró-Mover",
-    "paragraph": "Um instituto dedicado a promover impacto positivo na sociedade por meio do desenvolvimento e gestão de projetos que atendem demandas sociais, educacionais e ambientais. Atuando com ética, inovação e compromisso, o instituto oferece suporte técnico, planejamento estratégico e execução de iniciativas que transformam comunidades, sempre com foco na sustentabilidade e inclusão social."
+    "title": "O Instituto Pró-Mover",
+    "paragraph": "O IPMOVER é uma organiazção da sociedade cívil, sem fins lucrativos, qque tem como objetivo a promoção de atividades de carater filantropico, de relevancia publica e social que visam a melhoria da qualidade de vida do ser-humano e do meio ambiente por meio da firmatura de parcerias, consultorias e/ou prestação de serviços especializados."
   },
-  "About": {
-    "paragraph": "Somos um Instituto focado em transformar ideias em soluções concretas para desafios sociais. Com uma abordagem colaborativa e estratégica, promovemos o desenvolvimento de projetos sustentáveis, capacitamos agentes de mudança e construimos pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades.",
-    "Why": [
+  "HeaderSeconday": {
+    "paragraph": "Para garantir uma gestão eficiente e auxiliar na tomada de decisões, na forma do seu estatuto o Instituto Pró-Mover tem a seguinte estrutura organizacional:",
+    "Structure": [
+      "Assembleia geral.",
+      "Conselho de administração. ",
+      "Conselho fiscal.",
+      "Diretoria executiva."
+    ],"Why": [
       "Experiência e Expertise",
       "Inovação e Sustentabilidade",
       "Parcerias Estratégicas",
@@ -16,6 +21,19 @@
       "Gestão Personalizada",
       "Transparência",
       "Foco Comunitário"
+    ]
+  },
+  "About": {
+    "paragraph": "A atuação do IPM tem como foco a transformação de ideias em projetos apresentando soluções concretas nos diferentes ramos do conhecimento e da ciencia capacitando agentes de mudança, e construindo pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades na qual encontra-se inserido.",
+    "Why": [
+      "Gestão baseada em boas práticas.",
+      "Integridade e conduta ética.",
+      "Economicidade e eficiência."
+    ],
+    "Why2": [
+      "Foco nos resultados.",
+      "Transparencia e legalidade.",
+      "Respeito e valorização da diversidade."
     ]
   },
   "Gallery": [
@@ -132,23 +150,18 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Niziel Basilio dos Santos",
+      "job": "Presidente do Conselho de Administração"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Cárbio Almeida Waqued",
+      "job": "Presidente do Conselho Fiscal"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Maria Conceição F. de Faria Medeiros",
+      "job": "Diretoria Executiva"
     }
   ],
   "Contact": {

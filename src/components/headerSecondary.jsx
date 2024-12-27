@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = (props) => {
+export const HeaderSecondary = (props) => {
   return (
     <div id="about">
       <div className="container">
@@ -11,9 +11,16 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Atuação</h2>
+              <h2>Organização e Administração</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Nossos princípios e valores:</h3>
+              <ul>
+                    {props.data
+                      ? props.data.Structure.map((d, i) => (
+                          <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+              <h3>Porque nos escolher?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
