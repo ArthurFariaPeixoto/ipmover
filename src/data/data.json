@@ -1,27 +1,28 @@
 {
   "Header": {
     "title": "O Instituto Pró-Mover",
-    "paragraph": "O IPMOVER é uma organiazção da sociedade cívil, sem fins lucrativos, qque tem como objetivo a promoção de atividades de carater filantropico, de relevancia publica e social que visam a melhoria da qualidade de vida do ser-humano e do meio ambiente por meio da firmatura de parcerias, consultorias e/ou prestação de serviços especializados."
-  },
-  "HeaderSeconday": {
-    "paragraph": "Para garantir uma gestão eficiente e auxiliar na tomada de decisões, na forma do seu estatuto o Instituto Pró-Mover tem a seguinte estrutura organizacional:",
-    "Structure": [
-      "Assembleia geral.",
-      "Conselho de administração. ",
-      "Conselho fiscal.",
-      "Diretoria executiva."
-    ],"Why": [
-      "Experiência e Expertise",
-      "Inovação e Sustentabilidade",
-      "Parcerias Estratégicas",
-      "Compromisso com Resultados"
-    ],
-    "Why2": [
-      "Capacitação Profissional",
-      "Gestão Personalizada",
-      "Transparência",
-      "Foco Comunitário"
-    ]
+    "paragraph": "O IPMOVER é uma organiazção da sociedade cívil, sem fins lucrativos, que tem como objetivo a promoção de atividades de carater filantropico, de relevancia publica e social que visam a melhoria da qualidade de vida do ser-humano e do meio ambiente por meio da firmatura de parcerias, consultorias e/ou prestação de serviços especializados.",
+    "HeaderSecondary": {
+      "paragraph": "Para garantir uma gestão eficiente e auxiliar na tomada de decisões, na forma do seu estatuto o Instituto Pró-Mover tem a seguinte estrutura organizacional:",
+      "Structure": [
+        "Assembleia geral.",
+        "Conselho de administração. ",
+        "Conselho fiscal.",
+        "Diretoria executiva."
+      ],
+      "Why": [
+        "Experiência e Expertise",
+        "Inovação e Sustentabilidade",
+        "Parcerias Estratégicas",
+        "Compromisso com Resultados"
+      ],
+      "Why2": [
+        "Capacitação Profissional",
+        "Gestão Personalizada",
+        "Transparência",
+        "Foco Comunitário"
+      ]
+    }
   },
   "About": {
     "paragraph": "A atuação do IPM tem como foco a transformação de ideias em projetos apresentando soluções concretas nos diferentes ramos do conhecimento e da ciencia capacitando agentes de mudança, e construindo pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades na qual encontra-se inserido.",
@@ -36,117 +37,7 @@
       "Respeito e valorização da diversidade."
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"O Instituto transformou completamente a gestão do nosso projeto social. Eles organizaram cada etapa com clareza, trouxeram soluções inovadoras e nos ajudaram a alcançar mais pessoas do que imaginávamos.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Graças ao apoio do Instituto, conseguimos estruturar nosso programa de impacto social de forma sustentável e com métricas claras. Eles nos ajudaram a ampliar nosso alcance e melhorar a qualidade do atendimento.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Os treinamentos oferecidos pelo Instituto foram incríveis! Nossa equipe ganhou novas habilidades em gestão de projetos, e agora estamos muito mais preparados para enfrentar desafios.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Com o suporte técnico e estratégico do Instituto, conseguimos tirar do papel um projeto que parecia impossível. A dedicação da equipe foi fundamental para transformar essa ideia em uma realidade de impacto.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"A transparência e o profissionalismo do Instituto nos deram total confiança em investir. Eles apresentaram resultados concretos e nos ajudaram a entender o verdadeiro impacto do nosso apoio.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Nosso projeto nunca havia saído de uma escala local. Com a ajuda do Instituto, não apenas ampliamos nosso alcance, mas também conseguimos melhorar significativamente a vida de centenas de pessoas.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",

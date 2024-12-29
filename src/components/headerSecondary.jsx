@@ -14,12 +14,12 @@ export const HeaderSecondary = (props) => {
               <h2>Organização e Administração</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <ul>
-                    {props.data
-                      ? props.data.Structure.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
+                {props.data
+                  ? props.data.Structure.map((d, i) => (
+                      <li key={`${d}-${i}`}>{d}</li>
+                    ))
+                  : "loading"}
+              </ul>
               <h3>Porque nos escolher?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
