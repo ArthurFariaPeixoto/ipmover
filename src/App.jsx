@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
-import { About } from "./components/about";
+import { Atuacao } from "./components/atuacao";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
@@ -27,7 +27,7 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <HeaderSecondary data={landingPageData.HeaderSecondary} />
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
+      <Atuacao data={landingPageData.About} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>

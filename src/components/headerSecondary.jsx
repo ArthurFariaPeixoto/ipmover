@@ -2,7 +2,7 @@ import React from "react";
 
 export const HeaderSecondary = (props) => {
   return (
-    <div id="about">
+    <div id="header">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
