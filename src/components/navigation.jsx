@@ -20,7 +20,7 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
               alt="Logo Institucional"
-              src="img/logo3.png"
+              src="img/logo3.PNG"
               style={{
                 mixBlendMode: "darken",
                 display: "inline",

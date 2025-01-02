@@ -2,10 +2,6 @@ import React, { useEffect } from "react";
 import { HeaderSecondary } from "./headerSecondary";
 
 export const Header = (props) => {
-  useEffect(() => {
-    console.log(props);
-  }, [props]);
-
   return (
     <header id="header">
       <div className="intro">

@@ -38,11 +38,9 @@ export const Contact = (props) => {
         target,
         process.env.REACT_APP_PUBLIC_KEY
       );
-      console.log(result.text);
       clearState();
       return result.text; // Retorna o resultado para o toast
     } catch (error) {
-      console.error(error.text);
       throw new Error(error.text); // Lança o erro para ser capturado no toast
     }
   };
