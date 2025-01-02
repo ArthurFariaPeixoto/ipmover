@@ -37,7 +37,6 @@
       "Respeito e valorização da diversidade."
     ]
   },
-
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -55,13 +54,13 @@
       "job": "Diretoria Executiva"
     }
   ],
+
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "institutopmover@gmail.com",
+    "facebook": "",
+    "twitter": ""
   },
   "Features": [
     {

@@ -1,46 +1,61 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import toast from "react-hot-toast";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
+  telefone: "",
+  responder_wpp: "false",
 };
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, telefone, responder_wpp }, setState] =
+    useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
+  const clearState = () => {
+    setState({ ...initialState });
 
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    // Optional: Reset the form inputs manually if needed
+    const form = document.querySelector("form[name='sentMessage']");
+    if (form) {
+      form.reset();
     }
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
   };
+
+  const sendemail = async (target) => {
+    try {
+      const result = await emailjs.sendForm(
+        process.env.REACT_APP_SERVICE_KEY,
+        process.env.REACT_APP_TEMPLATE_KEY,
+        target,
+        process.env.REACT_APP_PUBLIC_KEY
+      );
+      console.log(result.text);
+      clearState();
+      return result.text; // Retorna o resultado para o toast
+    } catch (error) {
+      console.error(error.text);
+      throw new Error(error.text); // Lança o erro para ser capturado no toast
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    await toast.promise(sendemail(e.target), {
+      loading: "Enviando...",
+      success: <b>E-mail enviado com sucesso!</b>,
+      error: (err) => <b>Erro ao enviar e-mail: {err.message}</b>,
+    });
+  };
+
   return (
     <div>
       <div id="contact">
@@ -63,8 +78,9 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nome Completo"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -77,8 +93,9 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="E-mail"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -86,15 +103,77 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 <div className="form-group">
+                  <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    className="form-control"
+                    placeholder="Telefone (XX) XXXXX-XXXX"
+                    required
+                    pattern="\(\d{2}\) \d{4,5}-\d{4}"
+                    value={telefone}
+                    onInput={(e) => {
+                      e.target.value = e.target.value
+                        .replace(/\D/g, "")
+                        .replace(/(\d{2})(\d{4,5})(\d{4})/, "($1) $2-$3")
+                        .slice(0, 15);
+                    }}
+                    onChange={handleChange}
+                  />
+                  <p className="help-block text-danger"></p>
+                </div>
+                <div className="form-group">
                   <textarea
                     name="message"
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="O que deseja nos dizer?"
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
+                  <p className="help-block text-danger"></p>
+                </div>
+                <div className="form-group">
+                  <label style={{ fontSize: "15px" }}>
+                    <input
+                      type="checkbox"
+                      id="responder_wpp"
+                      name="responder_wpp"
+                      checked={responder_wpp === "Reponder via whatsapp"}
+                      onChange={(e) =>
+                        setState((prevState) => ({
+                          ...prevState,
+                          responder_wpp: e.target.checked
+                            ? "Reponder via whatsapp"
+                            : "Não responder via whatsapp",
+                        }))
+                      }
+                    />
+                    Desejo ser respondido pelo WhatsApp
+                  </label>
+                </div>
+                <br />
+                <div className="form-group">
+                  <label style={{ fontSize: "15px" }}>
+                    <input
+                      type="checkbox"
+                      id="lgpdConsent"
+                      name="lgpdConsent"
+                      value="accepted"
+                      required
+                      onChange={(e) =>
+                        handleChange({
+                          target: {
+                            name: "lgpdConsent",
+                            value: e.target.checked,
+                          },
+                        })
+                      }
+                    />
+                    Aceito os termos da LGPD
+                  </label>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
@@ -143,11 +222,6 @@ export const Contact = (props) => {
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                 </ul>

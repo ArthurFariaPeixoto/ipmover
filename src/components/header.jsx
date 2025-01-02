@@ -5,6 +5,7 @@ export const Header = (props) => {
   useEffect(() => {
     console.log(props);
   }, [props]);
+
   return (
     <header id="header">
       <div className="intro">
@@ -19,28 +20,37 @@ export const Header = (props) => {
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <div id="header2">
                   <div className="about-text">
-                    <h2 style={{color:"white"}}>Organização e Administração</h2>
-                    <p style={{color:"white"}}>
+                    <h2 style={{ color: "white" }}>
+                      Organização e Administração
+                    </h2>
+                    <p style={{ color: "white" }}>
                       {props.data
                         ? props.data.HeaderSecondary.paragraph
                         : "loading..."}
                     </p>
-                    <div style={{display: "flex", justifyContent: "center"}}>
+                    <div style={{ display: "flex", justifyContent: "center" }}>
                       <ul className="about-text-li">
                         {props.data
                           ? props.data.HeaderSecondary.Structure.map((d, i) => (
-                              <li key={`${d}-${i}`} style={{color:"white"}}>{d}</li>
+                              <li key={`${d}-${i}`} style={{ color: "white" }}>
+                                {d}
+                              </li>
                             ))
                           : "loading"}
                       </ul>
                     </div>
-                    <h3 style={{color:"white"}}>Porque nos escolher?</h3>
+                    <h3 style={{ color: "white" }}>Porque nos escolher?</h3>
                     <div className="list-style">
                       <div className="col-lg-6 col-sm-6 col-xs-12">
                         <ul className="about-text-li">
                           {props.data
                             ? props.data.HeaderSecondary.Why.map((d, i) => (
-                                <li key={`${d}-${i}`} style={{color:"white"}}>{d}</li>
+                                <li
+                                  key={`${d}-${i}`}
+                                  style={{ color: "white" }}
+                                >
+                                  {d}
+                                </li>
                               ))
                             : "loading"}
                         </ul>
@@ -49,7 +59,13 @@ export const Header = (props) => {
                         <ul className="about-text-li">
                           {props.data
                             ? props.data.HeaderSecondary.Why2.map((d, i) => (
-                                <li key={`${d}-${i}`} style={{color:"white"}}> {d}</li>
+                                <li
+                                  key={`${d}-${i}`}
+                                  style={{ color: "white" }}
+                                >
+                                  {" "}
+                                  {d}
+                                </li>
                               ))
                             : "loading"}
                         </ul>

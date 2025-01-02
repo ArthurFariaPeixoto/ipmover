@@ -4,8 +4,11 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Recursos</h2>
+        <div
+          className="col-md-10 col-md-offset-1 section-title"
+          style={{ paddingTop: "60px" }}
+        >
+          <h2>Governança</h2>
         </div>
         <div className="row">
           {props.data
