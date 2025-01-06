@@ -1,14 +1,14 @@
 {
   "Header": {
     "title": "O Instituto Pró-Mover",
-    "paragraph": "O IPMOVER é uma organiazção da sociedade cívil, sem fins lucrativos, que tem como objetivo a promoção de atividades de carater filantropico, de relevancia publica e social que visam a melhoria da qualidade de vida do ser-humano e do meio ambiente por meio da firmatura de parcerias, consultorias e/ou prestação de serviços especializados.",
+    "paragraph": "O IPM é uma organização da sociedade civil, sem fins lucrativos, que tem como objetivo a promoção de atividades de caráter filantrópico, de relevância pública e social, que visam à melhoria da qualidade de vida do ser humano e do meio ambiente. A relação com o IPM se dá por meio da firmatura de parcerias, consultorias e/ou prestação de serviços especializados.",
     "HeaderSecondary": {
-      "paragraph": "Para garantir uma gestão eficiente e auxiliar na tomada de decisões, na forma do seu estatuto o Instituto Pró-Mover tem a seguinte estrutura organizacional:",
+      "paragraph": "Para garantir uma gestão eficiente e auxiliar na tomada de decisões, na forma do seu estatuto, o Instituto Pró-Mover conta com a seguinte estrutura organizacional:",
       "Structure": [
-        "Assembleia geral.",
-        "Conselho de administração. ",
-        "Conselho fiscal.",
-        "Diretoria executiva."
+        "Assembleia Geral.",
+        "Conselho de Administração.",
+        "Conselho Fiscal.",
+        "Diretoria Executiva."
       ],
       "Why": [
         "Experiência e Expertise",
@@ -25,7 +25,7 @@
     }
   },
   "About": {
-    "paragraph": "A atuação do IPM tem como foco a transformação de ideias em projetos apresentando soluções concretas nos diferentes ramos do conhecimento e da ciencia capacitando agentes de mudança, e construindo pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades na qual encontra-se inserido.",
+    "paragraph": "A atuação do IPM tem como foco a transformação de ideias em projetos, apresentando soluções concretas nos diferentes ramos do conhecimento e da ciência, capacitando agentes de mudança e construindo pontes entre diferentes setores para gerar impacto positivo e duradouro nas comunidades nas quais se encontra inserido.",
     "Why": [
       "Gestão baseada em boas práticas.",
       "Integridade e conduta ética.",
@@ -33,7 +33,7 @@
     ],
     "Why2": [
       "Foco nos resultados.",
-      "Transparencia e legalidade.",
+      "Transparência e legalidade.",
       "Respeito e valorização da diversidade."
     ]
   },
@@ -51,7 +51,7 @@
     {
       "img": "img/team/03.jpg",
       "name": "Maria Conceição F. de Faria Medeiros",
-      "job": "Diretoria Executiva"
+      "job": "Diretora Executiva"
     }
   ],
 
@@ -64,24 +64,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Gestão Estratégica de Projetos",
-      "text": "Planejamento, execução e monitoramento de projetos sociais com metodologias modernas, garantindo eficiência e impacto mensurável."
+      "icon": "fa fa-briefcase",
+      "title": "Gestão Corporativa",
+      "text": "Na realização dos objetivos institucionais e na aplicação dos recursos, seguimos as normas e regulamentos internos aprovados pelo Conselho de Administração, bem como as diretrizes estabelecidas pelos contratantes e convenentes."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Parcerias e Colaborações",
-      "text": "Conexão entre empresas, ONGs e órgãos públicos para fortalecer redes de apoio e alavancar projetos de maior alcance e relevância."
+      "icon": "fa fa-link",
+      "title": "Parceiros e Convenentes",
+      "text": "A formalização de parcerias, por meio de contratos e convênios firmados com instituições públicas e privadas, ocorrerá no âmbito do município de Senador Canedo, em demais municípios do estado de Goiás e do país, respeitando os princípios da legalidade e da moralidade."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Capacitação e Treinamento",
-      "text": "Programas de formação para profissionais e organizações, com foco em gestão de projetos, captação de recursos e inovação social."
+      "icon": "fa fa-folder-open",
+      "title": "Portfólio de Projetos",
+      "text": "Na gestão de convênios e contratos, o IPM assegura a individualização de contas por projeto, garantindo transparência e facilitando o monitoramento do cumprimento das metas propostas, apresentando as prestações de contas conforme o formato estabelecido em contrato."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Monitoramento e Avaliação de Impacto",
-      "text": "Ferramentas para análise contínua dos resultados dos projetos, permitindo ajustes e garantindo que os objetivos sejam alcançados de forma eficaz."
+      "icon": "fa fa-bar-chart",
+      "title": "Controle de Resultados",
+      "text": "Como parte do compromisso com a responsabilidade corporativa, aplicamos a gestão de riscos no acompanhamento e controle sistêmico da execução da gestão institucional, garantindo a divulgação dos resultados alcançados e evidenciando o capital social e intelectual gerado."
     }
   ]
 }
