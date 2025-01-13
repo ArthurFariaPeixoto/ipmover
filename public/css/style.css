@@ -501,12 +501,28 @@ header .intro-text {
 #team h4 {
   margin: 5px 0;
 }
-#team .team-img {
-  width: 240px;
+
+#team .image-container {
+  width: 240px; /* largura da div */
+  height: 240px; /* altura da div */
+  overflow: hidden; /* oculta a parte da imagem que exceder a div */
+  position: relative; /* necessário para posicionar a imagem */
+}
+#team .image-container img {
+  position: absolute; /* posiciona a imagem relativamente ao container */
+  top: 50%; /* move a imagem para o centro vertical */
+  left: 50%; /* move a imagem para o centro horizontal */
+  transform: translate(-50%, -50%); /* ajusta a imagem para centralizar */
+  width: 100%; /* largura total da imagem */
+  height: 100%; /* altura total da imagem */
+  object-fit: cover; /* evita que a imagem seja achatada e preenche o espaço */
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
