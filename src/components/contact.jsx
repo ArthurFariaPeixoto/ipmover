@@ -76,7 +76,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Nome Completo"
+                        placeholder="Nome Completo *"
                         required
                         value={name}
                         onChange={handleChange}
@@ -91,7 +91,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="E-mail"
+                        placeholder="E-mail *"
                         required
                         value={email}
                         onChange={handleChange}
@@ -106,7 +106,7 @@ export const Contact = (props) => {
                     id="telefone"
                     name="telefone"
                     className="form-control"
-                    placeholder="Telefone (XX) XXXXX-XXXX"
+                    placeholder="Telefone (XX) XXXXX-XXXX *"
                     required
                     pattern="\(\d{2}\) \d{4,5}-\d{4}"
                     value={telefone}
@@ -126,7 +126,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="O que deseja nos dizer?"
+                    placeholder="O que deseja nos dizer? *"
                     required
                     value={message}
                     onChange={handleChange}
@@ -170,7 +170,7 @@ export const Contact = (props) => {
                         })
                       }
                     />
-                    Aceito os termos da LGPD
+                    Aceito os termos da LGPD *
                   </label>
                   <p className="help-block text-danger"></p>
                 </div>
@@ -208,7 +208,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -225,7 +225,7 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="footer">
