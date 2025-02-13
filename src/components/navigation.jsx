@@ -19,7 +19,7 @@ export const Navigation = (props) => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
-              alt="Logo Institucional"
+              alt="Logo Institucional Instituto Pró Mover"
               src="img/logo3.PNG"
               style={{
                 mixBlendMode: "darken",
